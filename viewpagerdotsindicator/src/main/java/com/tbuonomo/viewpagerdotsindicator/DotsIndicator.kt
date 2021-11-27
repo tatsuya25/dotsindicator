@@ -12,7 +12,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import com.tbuonomo.viewpagerdotsindicator.BaseDotsIndicator.Type.DEFAULT
 
-class DotsIndicator @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null,
+open class DotsIndicator @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null,
         defStyleAttr: Int = 0) : BaseDotsIndicator(context, attrs, defStyleAttr) {
 
   companion object {
